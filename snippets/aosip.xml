@@ -66,8 +66,8 @@
   <project path="external/zlib" name="platform_external_zlib" remote="aosip" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="derp" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="github" revision="pie-op5" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="pie-op5" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="aosip" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="derp" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />

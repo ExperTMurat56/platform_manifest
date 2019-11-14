@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the AOSiP trees, use a command like this:
 
 ```bash
-repo init -u git://github.com/DerpFest-Pie/platform_manifest.git -b pie
+repo init -u git://github.com/DerpFest-Pie/platform_manifest.git -b pie-op5
 ```
 Then to sync up:
 ```bash
@@ -24,7 +24,7 @@ The source at AOSiP is well configured for building.
 
 ```bash
 . build/envsetup.sh
-lunch aosip_ether-userdebug
+lunch aosip_cheeseburger-userdebug
 mka kronic
 ```
 
