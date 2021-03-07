@@ -14,7 +14,7 @@ repo init -u git://github.com/ExperTMurat56/platform_manifest.git -b derp_r61
 ```
 Then to sync up:
 ```bash
-repo sync -j$( nproc --all ) --force-sync --no-clone-bundle --no-tags
+repo sync -j16 --force-sync --no-clone-bundle --no-tags
 ```
 
 Building the source
